@@ -1,0 +1,30 @@
+<html>
+
+    <head>
+        <title>HTML5 Playground</title>
+    </head>
+    
+    <style>
+        .funny {
+            background-color: red;
+            width: 30px;
+            margin: 30px;
+        }
+    </style>
+
+    <body>
+        <p class="funny">Hi</p>
+        <br>
+        <p id="messagearea"></p>
+        <br>
+        <button onclick="selected()">Press Me</button>
+    </body>
+    
+    <script>
+        function selected() {
+            console.log("Button pressed");
+            document.getElementById("messagearea").innerHTML = "Hello World";
+        }
+    </script>
+
+</html>
